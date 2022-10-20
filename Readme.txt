@@ -1,6 +1,8 @@
-Thanks for downloading this template!
+Alphazero 5
+Ujian Praktik Deployment
 
-Template Name: Squadfree
-Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+1. Andhika R
+2. Naufal M
+3. Ria S
+4. Meila J
+5. Putri A
