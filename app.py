@@ -54,16 +54,16 @@ def apiDeteksi():
 
 		# Set Path untuk gambar hasil prediksi
 		if hasil_prediksi == 'Low':
-			gambar_prediksi = '/static/images/low.png'
+			gambar_prediksi = '/static/images/stunned.png'
 
 		elif hasil_prediksi == 'Normal':
-			gambar_prediksi = '/static/images/right.png'
+			gambar_prediksi = '/static/images/emoticon.png'
 
 		elif hasil_prediksi == 'High':
-			gambar_prediksi = '/static/images/upperRight.png'
+			gambar_prediksi = '/static/images/smile.png'
 
 		else:
-			gambar_prediksi = '/static/images/up.png'
+			gambar_prediksi = '/static/images/happy.png'
 		
 		# Return hasil prediksi dengan format JSON
 		return jsonify({

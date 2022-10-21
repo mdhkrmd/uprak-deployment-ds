@@ -72,7 +72,7 @@ $(document).ready(function(){
   function generate_prediksi(data_prediksi, image_prediksi) {
     var str="";
     // str += "<h3>Hasil Prediksi </h3>";
-    str += "<img src='" + image_prediksi + "' width=\"75\" height=\"75\"></img>"
+    str += "<img src='" + image_prediksi + "' width=\"107\" height=\"107\"></img>"
     str += "<h3>" + data_prediksi + "</h3>";
     $("#hasil_prediksi").html(str);
   }  
