@@ -32,10 +32,10 @@ $(document).ready(function(){
     e.preventDefault();
 	
 	// Set data pengukuran bunga iris dari input pengguna
-  var input_sepal_length = $("#range_sepal_length").val(); 
-	var input_sepal_width  = $("#range_sepal_width").val(); 
-	var input_petal_length = $("#range_petal_length").val(); 
-	var input_petal_width  = $("#range_petal_width").val(); 
+  var input_harapan 		= $("#harapan_lama_sekolah").val(); 
+	var input_pengeluaran = $("#pengeluaran_per_kapita").val(); 
+	var input_rerata 			= $("#rerata_lama_sekolah").val(); 
+	var input_usia  			= $("#usia_harapan_hidup").val(); 
 
 	// Panggil API dengan timeout 1 detik (1000 ms)
     setTimeout(function() {
@@ -44,10 +44,10 @@ $(document).ready(function(){
 			  url  : "/api/deteksi",
 			  type : "POST",
 			  data : {
-		  					"harapan" : input_sepal_length,
-							  "pengeluaran"  : input_sepal_width,
-							  "rerata" : input_petal_length,
-							  "usia"  : input_petal_width,
+		  					"harapan" : input_harapan,
+							  "pengeluaran"  : input_pengeluaran,
+							  "rerata" : input_rerata,
+							  "usia"  : input_usia,
 			         },
 			  success:function(res){
 				// Ambil hasil prediksi spesies dan path gambar spesies dari API
